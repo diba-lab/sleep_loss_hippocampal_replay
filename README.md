@@ -7,4 +7,4 @@ In this file you will find figure as shown in the below screenshot
 
 ![Example Image](replay_events_screenshot.png)
 
-Each panel depicts all PBE events from NSD (top) and SD (bottom) sessions. Each panel shows events that were categorized as continuous (brown dots) and non-continuous (blue dots).
+Each panel depicts all PBE events from NSD (top) and SD (bottom) sessions. Each panel shows events that were categorized as continuous (brown dots) and non-continuous (blue dots). Hovering your mouse pointer on top a data point will show posterior probabililty matrix depicting probabilities of each location (along the yaxis) across time (along the xaxis).
