@@ -1,0 +1,407 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AcrossSleepComparison.py	../AcrossSleepComparison.py	1;"	kind:file	line:1
+BasicInfo	../AcrossSleepComparison.py	/^    BasicInfo = {'samplingFrequency': 1250}$/;"	kind:variable	line:68
+CCGTry.py	../CCGTry.py	1;"	kind:file	line:1
+DataDirPath	../RipplePreMazePost.py	/^from OsCheck import DataDirPath, figDirPath$/;"	kind:namespace	line:16
+ExtractMessages.py	../ExtractMessages.py	1;"	kind:file	line:1
+FiringRatePreMazePost1.py	../FiringRatePreMazePost1.py	1;"	kind:file	line:1
+NCells	../FiringRatePreMazePost1.py	/^    NCells = len(pyrid) $/;"	kind:variable	line:54
+NCells	../RipplePreMazePost.py	/^    NCells = len(pyrid) $/;"	kind:variable	line:66
+POSTNREM	../AcrossSleepComparison.py	/^    POSTNREM = states[(states[:, 0] > behav[2, 0]) & (states[:, 2] == 1), :]$/;"	kind:variable	line:75
+PdfPages	../figMultipdfGenExample.py	/^from matplotlib.backends.backend_pdf import PdfPages$/;"	kind:namespace	line:17
+Plotfunctry.py	../Plotfunctry.py	1;"	kind:file	line:1
+ReqChan	../SleepDep_PowerSpectrumCompare.py	/^ReqChan = 28$/;"	kind:variable	line:18
+ReqChan	../SleepDep_PowerSpectrumCompare.py	/^ReqChan = 61$/;"	kind:variable	line:48
+ReqChan	../SleepDep_Ripple.py	/^ReqChan = 32$/;"	kind:variable	line:18
+ReqChan	../SleepDep_Spectral.py	/^ReqChan = 28$/;"	kind:variable	line:23
+ReqChan	../SleepDetectAlg.py	/^ReqChan = 28$/;"	kind:variable	line:14
+RipplePreMazePost.py	../RipplePreMazePost.py	1;"	kind:file	line:1
+SampFreq	../SleepDep_PowerSpectrumCompare.py	/^SampFreq = 1250$/;"	kind:variable	line:14
+SampFreq	../SleepDep_PowerSpectrumCompare.py	/^SampFreq = 1250$/;"	kind:variable	line:44
+SampFreq	../SleepDep_Ripple.py	/^SampFreq = 1250$/;"	kind:variable	line:14
+SampFreq	../SleepDep_Spectral.py	/^SampFreq = 1250$/;"	kind:variable	line:19
+SampFreq	../SleepDetectAlg.py	/^SampFreq = 1250$/;"	kind:variable	line:10
+SampFreq	../ThetaCheck.py	/^SampFreq = 1250$/;"	kind:variable	line:23
+SleepDep_PowerSpectrumCompare.py	../SleepDep_PowerSpectrumCompare.py	1;"	kind:file	line:1
+SleepDep_Ripple.py	../SleepDep_Ripple.py	1;"	kind:file	line:1
+SleepDep_RippleCompare.py	../SleepDep_RippleCompare.py	1;"	kind:file	line:1
+SleepDep_Spectral.py	../SleepDep_Spectral.py	1;"	kind:file	line:1
+SleepDetectAlg.py	../SleepDetectAlg.py	1;"	kind:file	line:1
+SpectrogramGen.py	../SpectrogramGen.py	1;"	kind:file	line:1
+ThetaCheck.py	../ThetaCheck.py	1;"	kind:file	line:1
+ThreshSignal	../SleepDep_Ripple.py	/^ThreshSignal = np.diff(np.where(zscoreSignal > 2, 1, 0))$/;"	kind:variable	line:54
+Tmax	../SpectrogramGen.py	/^Tmax = 2$/;"	kind:variable	line:14
+allspikes	../unitExtract.py	/^allspikes = []$/;"	kind:variable	line:18
+allspikes	../unitExtract.py	/^allspikes = [item for sublist in allspikes for item in sublist]$/;"	kind:variable	line:32
+amplitude_envelope	../SleepDep_Ripple.py	/^amplitude_envelope = stat.zscore(np.abs(analytic_signal))$/;"	kind:variable	line:44
+analytic_signal	../SleepDep_Ripple.py	/^analytic_signal = sg.hilbert(yf)$/;"	kind:variable	line:43
+arrays	../AcrossSleepComparison.py	/^arrays = {}$/;"	kind:variable	line:25
+arrays	../CCGTry.py	/^arrays = {}$/;"	kind:variable	line:21
+arrays	../FiringRatePreMazePost1.py	/^arrays = {}$/;"	kind:variable	line:20
+arrays	../RipplePreMazePost.py	/^arrays = {}$/;"	kind:variable	line:30
+ax0	../AcrossSleepComparison.py	/^    ax0 = plt.subplot(1, 1, 1)$/;"	kind:variable	line:82
+b	../ExtractMessages.py	/^b = np.load(fname + 'timestamps.npy')$/;"	kind:variable	line:6
+b1	../SleepDep_PowerSpectrumCompare.py	/^b1 = np.memmap(filename, dtype='int16', mode='r',$/;"	kind:variable	line:23
+b1	../SleepDep_PowerSpectrumCompare.py	/^b1 = np.memmap(filename, dtype='int16', mode='r',$/;"	kind:variable	line:53
+b1	../SleepDep_Spectral.py	/^b1 = np.memmap(filename, dtype='int16', mode='r',$/;"	kind:variable	line:30
+b1	../SleepDetectAlg.py	/^b1 = np.memmap(filename, dtype='int16', mode='r',$/;"	kind:variable	line:21
+b1	../ThetaCheck.py	/^b1 = np.memmap(filename, dtype='int16', mode='r', shape=(SampFreq * 60 * 100,nChans))$/;"	kind:variable	line:31
+badChannels	../ThetaCheck.py	/^badChannels = [1,3,6,7] + np.arange(65,76).tolist()$/;"	kind:variable	line:28
+badchan	../SleepDep_RippleCompare.py	/^badchan = [0, 2, 5, 6, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74]$/;"	kind:variable	line:15
+badchan	../SleepDep_RippleCompare.py	/^badchan = [x+1 for x in badchan]$/;"	kind:variable	line:16
+basepath	../unitExtract.py	/^basepath = '~\/Documents\/ClusteringHub\/RatJ_2019-05-31_03-55-36\/'$/;"	kind:variable	line:8
+behav	../AcrossSleepComparison.py	/^    behav = np.transpose(fbehav['behavior'][sub_name]['time'][:])$/;"	kind:variable	line:55
+behav	../FiringRatePreMazePost1.py	/^    behav = np.transpose(fbehav['behavior'][sub_name]['time'][:])$/;"	kind:variable	line:51
+behav	../RipplePreMazePost.py	/^    behav = np.transpose(fbehav['behavior'][sub_name]['time'][:])$/;"	kind:variable	line:62
+behavTime	../FiringRatePreMazePost1.py	/^        behavTime = np.delete(behavTime,2)$/;"	kind:variable	line:68
+behavTime	../FiringRatePreMazePost1.py	/^    behavTime = (np.diff(binS)[::2])\/1e6$/;"	kind:variable	line:63
+behavTime	../RipplePreMazePost.py	/^        behavTime = np.delete(behavTime,2)$/;"	kind:variable	line:80
+behavTime	../RipplePreMazePost.py	/^    behavTime = (np.diff(binS)[::2])\/1e6$/;"	kind:variable	line:75
+bestChanSess1	../SleepDep_RippleCompare.py	/^bestChanSess1 = spect.bestRippleChannel(session1, 1250, 75, badchan)$/;"	kind:variable	line:18
+bestChanSess2	../SleepDep_RippleCompare.py	/^bestChanSess2 = spect.bestRippleChannel(session2, 1250, 67, badchan)$/;"	kind:variable	line:23
+bestThetaChannel	../ThetaCheck.py	/^from SpectralAnalysis import bestThetaChannel$/;"	kind:namespace	line:18
+binS	../FiringRatePreMazePost1.py	/^    binS = behav.reshape(np.size(behav),1).squeeze() $/;"	kind:variable	line:55
+binS	../RipplePreMazePost.py	/^    binS = behav.reshape(np.size(behav),1).squeeze() $/;"	kind:variable	line:67
+c	../ExtractMessages.py	/^c = np.load(fname + 'full_words.npy')$/;"	kind:variable	line:7
+c1	../SleepDetectAlg.py	/^    c1 = chan1[int(i):int(i)+3*1250]$/;"	kind:variable	line:42
+c2	../SleepDetectAlg.py	/^    c2 = chan2[int(i):int(i)+3*1250]$/;"	kind:variable	line:43
+cellSpkCounts	../FiringRatePreMazePost1.py	/^        cellSpkCounts = np.delete(cellSpkCounts,2,1)$/;"	kind:variable	line:69
+cellSpkCounts	../FiringRatePreMazePost1.py	/^    cellSpkCounts = np.zeros((NCells,len(behav)))$/;"	kind:variable	line:56
+cellSpkCounts	../RipplePreMazePost.py	/^        cellSpkCounts = np.delete(cellSpkCounts,2,1)$/;"	kind:variable	line:81
+cellSpkCounts	../RipplePreMazePost.py	/^    cellSpkCounts = np.zeros((NCells,len(behav)))$/;"	kind:variable	line:68
+cellpyr	../AcrossSleepComparison.py	/^    cellpyr = [celltype[a] for a in pyrid]$/;"	kind:variable	line:60
+cellpyr	../CCGTry.py	/^    cellpyr= [celltype[a] for a in pyrid]$/;"	kind:variable	line:50
+cellpyr	../FiringRatePreMazePost1.py	/^    cellpyr= [celltype[a] for a in pyrid]$/;"	kind:variable	line:49
+cellpyr	../RipplePreMazePost.py	/^    cellpyr= [celltype[a] for a in pyrid]$/;"	kind:variable	line:60
+celltype	../AcrossSleepComparison.py	/^    celltype = {}$/;"	kind:variable	line:45
+celltype	../CCGTry.py	/^    celltype={}$/;"	kind:variable	line:40
+celltype	../FiringRatePreMazePost1.py	/^    celltype={}$/;"	kind:variable	line:39
+celltype	../RipplePreMazePost.py	/^    celltype={}$/;"	kind:variable	line:50
+chan1	../SleepDetectAlg.py	/^chan1 = np.array(b1[:, 25], dtype=np.float)$/;"	kind:variable	line:23
+chan2	../SleepDetectAlg.py	/^chan2 = np.array(b1[:, 5], dtype=np.float)$/;"	kind:variable	line:24
+clustertype	../unitExtract.py	/^    clustertype = quality_Info[-1].tolist()$/;"	kind:variable	line:27
+coher	../SleepDetectAlg.py	/^coher = []$/;"	kind:variable	line:39
+d	../figMultipdfGenExample.py	/^    d = pdf.infodict()$/;"	kind:variable	line:52
+datetime	../figMultipdfGenExample.py	/^import datetime$/;"	kind:namespace	line:12
+delta	../SleepDetectAlg.py	/^delta = sg.filtfilt(b, a, signal)$/;"	kind:variable	line:52
+delta_mean_power	../SleepDetectAlg.py	/^delta_mean_power = np.mean(delta_power, axis=0)$/;"	kind:variable	line:57
+delta_power	../SleepDetectAlg.py	/^delta_power = Sxx[delta_range, :]$/;"	kind:variable	line:56
+delta_range	../SleepDetectAlg.py	/^delta_range = np.where((1 < f) & (f < 4))[0]$/;"	kind:variable	line:55
+delta_theta_ratio	../SleepDetectAlg.py	/^delta_theta_ratio = sg.filtfilt(window, 1, delta_theta_ratio, axis=0)$/;"	kind:variable	line:73
+delta_theta_ratio	../SleepDetectAlg.py	/^delta_theta_ratio = theta_mean_power\/(delta_mean_power + deltaplus_mean_power)$/;"	kind:variable	line:67
+deltaplus_mean_power	../SleepDetectAlg.py	/^deltaplus_mean_power = np.mean(deltaplus_power, axis=0)$/;"	kind:variable	line:65
+deltaplus_power	../SleepDetectAlg.py	/^deltaplus_power = Sxx[deltaplus_range, :]$/;"	kind:variable	line:64
+deltaplus_range	../SleepDetectAlg.py	/^deltaplus_range = np.where((12 < f) & (f < 15))[0]$/;"	kind:variable	line:63
+diff1	../CCGTry.py	/^            diff1 = (spk1-spk2[:,np.newaxis]).squeeze()$/;"	kind:variable	line:62
+diff2	../CCGTry.py	/^            diff2 = (spk2-spk1[:,np.newaxis]).squeeze()$/;"	kind:variable	line:63
+dir_inside	../unitExtract.py	/^dir_inside = fd.listDirectory(basepath, 'Shank')$/;"	kind:variable	line:11
+dt	../SpectrogramGen.py	/^dt = 0.001$/;"	kind:variable	line:13
+duration	../SleepDep_Ripple.py	/^duration = 3600*3$/;"	kind:variable	line:21
+edges	../SleepDetectAlg.py	/^edges = np.linspace(0, 8, 300)$/;"	kind:variable	line:76
+eegnrem1	../SleepDep_PowerSpectrumCompare.py	/^eegnrem1 = b1[0, ::nChans]$/;"	kind:variable	line:25
+eegnrem1	../SleepDep_PowerSpectrumCompare.py	/^eegnrem1 = b1[0, ::nChans]$/;"	kind:variable	line:55
+eegnrem1	../SleepDep_Spectral.py	/^eegnrem1 = b1[0, ::nChans]$/;"	kind:variable	line:32
+eegnrem1	../ThetaCheck.py	/^    eegnrem1= goodThetalfp[:,chan]$/;"	kind:variable	line:39
+elapsed	../CCGTry.py	/^    elapsed = time.time() - t    /;"	kind:variable	line:65
+f	../AcrossSleepComparison.py	/^f = h5py.File(sourceDir + 'wake-basics.mat', 'r')$/;"	kind:variable	line:26
+f	../CCGTry.py	/^f= h5py.File(sourceDir + 'wake-basics.mat', 'r') $/;"	kind:variable	line:22
+f	../FiringRatePreMazePost1.py	/^f= h5py.File(sourceDir + 'wake-basics.mat', 'r') $/;"	kind:variable	line:21
+f	../RipplePreMazePost.py	/^f= h5py.File(sourceDir + 'wake-basics.mat', 'r') $/;"	kind:variable	line:31
+f	../positionExtract.py	/^f = open(filename, 'r')$/;"	kind:variable	line:8
+f1	../SleepDetectAlg.py	/^f1 = coher[0]$/;"	kind:variable	line:80
+fICAStrength	../FiringRatePreMazePost1.py	/^fICAStrength = h5py.File('\/data\/DataGen\/ICAStrengthpy.mat', 'r') $/;"	kind:variable	line:29
+fICAStrength	../RipplePreMazePost.py	/^fICAStrength = h5py.File('\/data\/DataGen\/ICAStrengthpy.mat', 'r') $/;"	kind:variable	line:40
+fRate	../FiringRatePreMazePost1.py	/^    fRate = cellSpkCounts\/behavTime$/;"	kind:variable	line:71
+fRate	../RipplePreMazePost.py	/^    fRate = cellSpkCounts\/behavTime$/;"	kind:variable	line:83
+fbehav	../AcrossSleepComparison.py	/^fbehav = h5py.File(sourceDir + 'wake-behavior.mat', 'r')$/;"	kind:variable	line:31
+fbehav	../CCGTry.py	/^fbehav= h5py.File(sourceDir + 'wake-behavior.mat', 'r') $/;"	kind:variable	line:28
+fbehav	../FiringRatePreMazePost1.py	/^fbehav= h5py.File(sourceDir + 'wake-behavior.mat', 'r') $/;"	kind:variable	line:27
+fbehav	../RipplePreMazePost.py	/^fbehav= h5py.File(sourceDir + 'wake-behavior.mat', 'r') $/;"	kind:variable	line:37
+fd	../unitExtract.py	/^import fileUtilities as fd$/;"	kind:namespace	line:5
+fig	../figMultipdfGenExample.py	/^    fig = plt.figure(figsize=(4, 5))$/;"	kind:variable	line:45
+figDirPath	../RipplePreMazePost.py	/^from OsCheck import DataDirPath, figDirPath$/;"	kind:namespace	line:16
+figMultipdfGenExample.py	../figMultipdfGenExample.py	1;"	kind:file	line:1
+filename	../SleepDep_PowerSpectrumCompare.py	/^filename = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day1\/RatJ_2019-05-31_03-55-36\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:12
+filename	../SleepDep_PowerSpectrumCompare.py	/^filename = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day2\/RatJ_2019-06-02_03-59-19\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:41
+filename	../SleepDep_Ripple.py	/^filename = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day1\/RatJ_2019-05-31_03-55-36\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:13
+filename	../SleepDep_Spectral.py	/^filename = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day1\/RatJ_2019-05-31_03-55-36\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:17
+filename	../SleepDetectAlg.py	/^filename = '\/home\/bapung\/Documents\/ClusteringHub\/RatJ_2019-05-31_03-55-36\/continuous.eeg'$/;"	kind:variable	line:9
+filename	../ThetaCheck.py	/^filename = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day1\/RatJ_2019-05-31_03-55-36\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:21
+filename	../positionExtract.py	/^filename = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Behavior_Position\/Take 2019-05-31 03.55.25 AM.fbx'$/;"	kind:variable	line:6
+filename	../unitExtract.py	/^    filename = basepath + fd + '\/' + fd + '.csv'$/;"	kind:variable	line:20
+firstPass	../SleepDep_Ripple.py	/^firstPass = np.concatenate((start_ripple, stop_ripple), axis=1)$/;"	kind:variable	line:60
+fname	../ExtractMessages.py	/^fname = '\/data\/Clustering\/SleepDeprivation\/RatK\/Day1\/2019-08-06_03-44-01\/experiment1\/recording1\/events\/Rhythm_FPGA-100.0\/TTL_1\/'$/;"	kind:variable	line:3
+fpos	../CCGTry.py	/^fpos= h5py.File(sourceDir + 'wake-position.mat', 'r') $/;"	kind:variable	line:29
+fpos	../FiringRatePreMazePost1.py	/^fpos= h5py.File(sourceDir + 'wake-position.mat', 'r') $/;"	kind:variable	line:28
+fpos	../RipplePreMazePost.py	/^fpos= h5py.File(sourceDir + 'wake-position.mat', 'r') $/;"	kind:variable	line:38
+frames	../AcrossSleepComparison.py	/^    frames = np.transpose(fbehav['behavior'][sub_name]['eegFrame'][:])$/;"	kind:variable	line:57
+fripples	../RipplePreMazePost.py	/^fripples= h5py.File(sourceDir + 'wake-ripple.mat', 'r') $/;"	kind:variable	line:39
+fs	../SpectrogramGen.py	/^fs = len(t)\/Tmax$/;"	kind:variable	line:16
+fspikes	../AcrossSleepComparison.py	/^fspikes = h5py.File(sourceDir + 'testVersion.mat', 'r')$/;"	kind:variable	line:30
+fspikes	../CCGTry.py	/^fspikes= h5py.File(sourceDir + 'testVersion.mat', 'r') $/;"	kind:variable	line:27
+fspikes	../FiringRatePreMazePost1.py	/^fspikes= h5py.File(sourceDir + 'testVersion.mat', 'r') $/;"	kind:variable	line:26
+fspikes	../RipplePreMazePost.py	/^fspikes= h5py.File(sourceDir + 'testVersion.mat', 'r') $/;"	kind:variable	line:36
+ft	../AcrossSleepComparison.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:15
+ft	../SleepDep_PowerSpectrumCompare.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:6
+ft	../SleepDep_Ripple.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:5
+ft	../SleepDep_RippleCompare.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:5
+ft	../SleepDep_Spectral.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:11
+ft	../ThetaCheck.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:14
+gaussian_filter	../CCGTry.py	/^from scipy.ndimage import gaussian_filter$/;"	kind:namespace	line:11
+goodTheta	../ThetaCheck.py	/^goodTheta= bestThetaChannel(filename,SampFreq,nChans,badChannels)$/;"	kind:variable	line:29
+goodThetalfp	../ThetaCheck.py	/^goodThetalfp = b1[:,goodTheta]$/;"	kind:variable	line:32
+h5py	../AcrossSleepComparison.py	/^import h5py$/;"	kind:namespace	line:19
+h5py	../CCGTry.py	/^import h5py$/;"	kind:namespace	line:16
+h5py	../FiringRatePreMazePost1.py	/^import h5py$/;"	kind:namespace	line:15
+h5py	../RipplePreMazePost.py	/^import h5py$/;"	kind:namespace	line:15
+highThresholdFactor	../SleepDep_Ripple.py	/^highThresholdFactor = 5$/;"	kind:variable	line:80
+i	../positionExtract.py	/^        i = i+1$/;"	kind:variable	line:25
+i	../positionExtract.py	/^i = 1$/;"	kind:variable	line:19
+k	../positionExtract.py	/^k = 830$/;"	kind:variable	line:20
+lastNrem	../AcrossSleepComparison.py	/^    lastNrem = sleepPeriods[slpNrem[-1], 0:2]$/;"	kind:variable	line:66
+lfpCA1	../SleepDep_Ripple.py	/^lfpCA1 = np.memmap(filename, dtype='int16', mode='r',$/;"	kind:variable	line:25
+lfpDetect	../SleepDep_RippleCompare.py	/^import lfpDetect as lfpDetect$/;"	kind:namespace	line:8
+lfpSpect	../AcrossSleepComparison.py	/^from SpectralAnalysis import lfpSpect$/;"	kind:namespace	line:18
+line	../positionExtract.py	/^            line = line.strip()$/;"	kind:variable	line:27
+m	../SleepDetectAlg.py	/^m = coher[1]$/;"	kind:variable	line:81
+m	../positionExtract.py	/^            m = line.split(',')$/;"	kind:variable	line:28
+matplotlib	../AcrossSleepComparison.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+matplotlib	../CCGTry.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+matplotlib	../FiringRatePreMazePost1.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+matplotlib	../Plotfunctry.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+matplotlib	../RipplePreMazePost.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+matplotlib	../SleepDep_PowerSpectrumCompare.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+matplotlib	../SleepDep_Ripple.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:8
+matplotlib	../SleepDep_RippleCompare.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../SleepDep_Spectral.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+matplotlib	../SleepDetectAlg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../SpectrogramGen.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:11
+matplotlib	../ThetaCheck.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:12
+matplotlib	../figMultipdfGenExample.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:18
+matplotlib	../positionExtract.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../unitExtract.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+maxValue	../SleepDep_Ripple.py	/^    maxValue = max(zscoreSignal[secondPass[i, 0]:secondPass[i, 1]])$/;"	kind:variable	line:82
+minInterRippleSamples	../SleepDep_Ripple.py	/^minInterRippleSamples = 30\/1000*1250$/;"	kind:variable	line:63
+nChans	../SleepDep_PowerSpectrumCompare.py	/^nChans = 67$/;"	kind:variable	line:47
+nChans	../SleepDep_PowerSpectrumCompare.py	/^nChans = 75$/;"	kind:variable	line:17
+nChans	../SleepDep_Ripple.py	/^nChans = 75$/;"	kind:variable	line:17
+nChans	../SleepDep_Spectral.py	/^nChans = 75$/;"	kind:variable	line:22
+nChans	../SleepDetectAlg.py	/^nChans = 75$/;"	kind:variable	line:13
+nChans	../ThetaCheck.py	/^nChans = 75$/;"	kind:variable	line:26
+nMazeFrames	../AcrossSleepComparison.py	/^    nMazeFrames = int(np.diff(frames[2, :]))$/;"	kind:variable	line:74
+nUnits	../AcrossSleepComparison.py	/^    nUnits = len(fspikes['spikes'][sub_name]['time'])$/;"	kind:variable	line:44
+nUnits	../CCGTry.py	/^    nUnits = len(fspikes['spikes'][sub_name]['time'])$/;"	kind:variable	line:39
+nUnits	../FiringRatePreMazePost1.py	/^    nUnits = len(fspikes['spikes'][sub_name]['time'])$/;"	kind:variable	line:38
+nUnits	../RipplePreMazePost.py	/^    nUnits = len(fspikes['spikes'][sub_name]['time'])$/;"	kind:variable	line:49
+ndimage	../AcrossSleepComparison.py	/^import scipy.ndimage.filters as smth$/;"	kind:namespace	line:14
+noise_power	../SpectrogramGen.py	/^noise_power = 0.01 * fs \/ 2$/;"	kind:variable	line:17
+normsquaredsignal	../SleepDep_Ripple.py	/^normsquaredsignal = stat.zscore(squared_signal)$/;"	kind:variable	line:40
+np	../AcrossSleepComparison.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../CCGTry.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../ExtractMessages.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../FiringRatePreMazePost1.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../Plotfunctry.py	/^import numpy as np$/;"	kind:namespace	line:8
+np	../RipplePreMazePost.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../SleepDep_PowerSpectrumCompare.py	/^import numpy as np$/;"	kind:namespace	line:5
+np	../SleepDep_Ripple.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../SleepDep_RippleCompare.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../SleepDep_Spectral.py	/^import numpy as np$/;"	kind:namespace	line:10
+np	../SleepDetectAlg.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../SpectrogramGen.py	/^import numpy as np$/;"	kind:namespace	line:9
+np	../ThetaCheck.py	/^import numpy as np$/;"	kind:namespace	line:13
+np	../figMultipdfGenExample.py	/^import numpy as np$/;"	kind:namespace	line:13
+np	../positionExtract.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../testprogs.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../unitExtract.py	/^import numpy as np$/;"	kind:namespace	line:2
+nyq	../SleepDep_Ripple.py	/^nyq = 0.5 * SampFreq$/;"	kind:variable	line:29
+nyq	../SleepDetectAlg.py	/^nyq = 0.5 * SampFreq$/;"	kind:variable	line:27
+offset	../SleepDep_PowerSpectrumCompare.py	/^               offset=1 * (ReqChan - 1) * 2 + 75*2*SampFreq*3600*10, shape=(1, nChans * SampFreq * 3600 * 1))$/;"	kind:variable	line:24
+offset	../SleepDep_PowerSpectrumCompare.py	/^               offset=1 * (ReqChan - 1) * 2 + 75*2*SampFreq*3600*5, shape=(1, nChans * SampFreq * 3600 * 1))$/;"	kind:variable	line:54
+offset	../SleepDep_Spectral.py	/^               offset=1 * (ReqChan - 1) * 2, shape=(1, nChans * SampFreq * 3600 * 15))$/;"	kind:variable	line:31
+offsetp	../SleepDep_PowerSpectrumCompare.py	/^offsetp = (ReqChan-1)$/;"	kind:variable	line:21
+offsetp	../SleepDep_PowerSpectrumCompare.py	/^offsetp = (ReqChan-1)$/;"	kind:variable	line:51
+offsetp	../SleepDep_Ripple.py	/^offsetp = (ReqChan-1)*2$/;"	kind:variable	line:19
+offsetp	../SleepDep_Spectral.py	/^offsetp = (ReqChan-1)$/;"	kind:variable	line:28
+offsetp	../SleepDetectAlg.py	/^offsetp = (ReqChan-1)$/;"	kind:variable	line:19
+os	../unitExtract.py	/^import os$/;"	kind:namespace	line:1
+pd	../positionExtract.py	/^import pandas as pd$/;"	kind:namespace	line:2
+pd	../unitExtract.py	/^import pandas as pd$/;"	kind:namespace	line:4
+peakNormalizedPower	../SleepDep_Ripple.py	/^peakNormalizedPower = []$/;"	kind:variable	line:79
+plotfig	../Plotfunctry.py	/^from figCust import plotfig$/;"	kind:namespace	line:10
+plt	../AcrossSleepComparison.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+plt	../CCGTry.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+plt	../FiringRatePreMazePost1.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+plt	../Plotfunctry.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+plt	../RipplePreMazePost.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:10
+plt	../SleepDep_PowerSpectrumCompare.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+plt	../SleepDep_Ripple.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:8
+plt	../SleepDep_RippleCompare.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../SleepDep_Spectral.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:9
+plt	../SleepDetectAlg.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../SpectrogramGen.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:11
+plt	../ThetaCheck.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:12
+plt	../figMultipdfGenExample.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:18
+plt	../positionExtract.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../unitExtract.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+positionExtract.py	../positionExtract.py	1;"	kind:file	line:1
+pyrid	../AcrossSleepComparison.py	/^    pyrid = [i for i in range(0, nUnits) if quality[i]$/;"	kind:variable	line:58
+pyrid	../CCGTry.py	/^    pyrid = [i for i in range(0,nUnits) if quality[i] < 4 and stability[i] == 1]$/;"	kind:variable	line:49
+pyrid	../FiringRatePreMazePost1.py	/^    pyrid = [i for i in range(0,nUnits) if quality[i] < 4 and stability[i] == 1]$/;"	kind:variable	line:48
+pyrid	../RipplePreMazePost.py	/^    pyrid = [i for i in range(0,nUnits) if quality[i] < 4 and stability[i] == 1]$/;"	kind:variable	line:59
+quality	../AcrossSleepComparison.py	/^    quality = {}$/;"	kind:variable	line:46
+quality	../CCGTry.py	/^    quality={}$/;"	kind:variable	line:41
+quality	../FiringRatePreMazePost1.py	/^    quality={}$/;"	kind:variable	line:40
+quality	../RipplePreMazePost.py	/^    quality={}$/;"	kind:variable	line:51
+quality_Info	../unitExtract.py	/^    quality_Info = pd.read_csv(quality_filename, header=None)$/;"	kind:variable	line:26
+quality_filename	../unitExtract.py	/^    quality_filename = basepath + fd + '\/' + fd + '_quality.csv'$/;"	kind:variable	line:21
+ripple	../SleepDep_Ripple.py	/^        ripple = [ripple[0], firstPass[i, 1]]$/;"	kind:variable	line:69
+ripple	../SleepDep_Ripple.py	/^        ripple = firstPass[i]$/;"	kind:variable	line:72
+ripple	../SleepDep_Ripple.py	/^ripple = firstPass[0]$/;"	kind:variable	line:65
+ripple_duration	../SleepDep_Ripple.py	/^ripple_duration = np.diff(thirdPass, axis=1)\/1250*1000$/;"	kind:variable	line:89
+ripples	../RipplePreMazePost.py	/^    ripples = np.transpose(fripples['ripple'][sub_name]['time'][:])$/;"	kind:variable	line:64
+scipy	../AcrossSleepComparison.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:15
+scipy	../AcrossSleepComparison.py	/^import scipy.io as sio$/;"	kind:namespace	line:13
+scipy	../AcrossSleepComparison.py	/^import scipy.ndimage.filters as smth$/;"	kind:namespace	line:14
+scipy	../AcrossSleepComparison.py	/^import scipy.signal as sg$/;"	kind:namespace	line:17
+scipy	../AcrossSleepComparison.py	/^import scipy.stats as stat$/;"	kind:namespace	line:16
+scipy	../SleepDep_PowerSpectrumCompare.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:6
+scipy	../SleepDep_PowerSpectrumCompare.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:7
+scipy	../SleepDep_PowerSpectrumCompare.py	/^import scipy.signal as sg$/;"	kind:namespace	line:8
+scipy	../SleepDep_PowerSpectrumCompare.py	/^import scipy.stats as stat$/;"	kind:namespace	line:9
+scipy	../SleepDep_Ripple.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:5
+scipy	../SleepDep_Ripple.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:4
+scipy	../SleepDep_Ripple.py	/^import scipy.signal as sg$/;"	kind:namespace	line:6
+scipy	../SleepDep_Ripple.py	/^import scipy.stats as stat$/;"	kind:namespace	line:7
+scipy	../SleepDep_RippleCompare.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:5
+scipy	../SleepDep_RippleCompare.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:4
+scipy	../SleepDep_RippleCompare.py	/^import scipy.signal as sg$/;"	kind:namespace	line:6
+scipy	../SleepDep_RippleCompare.py	/^import scipy.stats as stat$/;"	kind:namespace	line:7
+scipy	../SleepDep_Spectral.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:11
+scipy	../SleepDep_Spectral.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:12
+scipy	../SleepDep_Spectral.py	/^import scipy.signal as sg$/;"	kind:namespace	line:13
+scipy	../SleepDep_Spectral.py	/^import scipy.stats as stat$/;"	kind:namespace	line:14
+scipy	../SleepDetectAlg.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:5
+scipy	../SleepDetectAlg.py	/^import scipy.signal as sg$/;"	kind:namespace	line:4
+scipy	../SleepDetectAlg.py	/^import scipy.stats as stat$/;"	kind:namespace	line:6
+scipy	../SpectrogramGen.py	/^import scipy.signal as signal$/;"	kind:namespace	line:10
+scipy	../ThetaCheck.py	/^import scipy.fftpack as ft$/;"	kind:namespace	line:14
+scipy	../ThetaCheck.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:15
+scipy	../ThetaCheck.py	/^import scipy.signal as sg$/;"	kind:namespace	line:16
+scipy	../ThetaCheck.py	/^import scipy.stats as stat$/;"	kind:namespace	line:17
+sdr	../testprogs.py	/^sdr = np.load(session4)$/;"	kind:variable	line:7
+secondPass	../SleepDep_Ripple.py	/^secondPass = []$/;"	kind:variable	line:64
+secondPass	../SleepDep_Ripple.py	/^secondPass = np.asarray(secondPass)$/;"	kind:variable	line:75
+session1	../SleepDep_RippleCompare.py	/^session1 = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day1\/RatJ_2019-05-31_03-55-36\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:12
+session2	../SleepDep_RippleCompare.py	/^session2 = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day2\/RatJ_2019-06-02_03-59-19\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/continuous.eeg'$/;"	kind:variable	line:13
+session4	../testprogs.py	/^session4 = '\/data\/Clustering\/SleepDeprivation\/RatJ\/Day2\/RatJ_2019-06-02_03-59-19\/experiment1\/recording1\/continuous\/Rhythm_FPGA-100.0\/timestamps.npy'$/;"	kind:variable	line:5
+sg	../AcrossSleepComparison.py	/^import scipy.signal as sg$/;"	kind:namespace	line:17
+sg	../SleepDep_PowerSpectrumCompare.py	/^import scipy.signal as sg$/;"	kind:namespace	line:8
+sg	../SleepDep_Ripple.py	/^import scipy.signal as sg$/;"	kind:namespace	line:6
+sg	../SleepDep_RippleCompare.py	/^import scipy.signal as sg$/;"	kind:namespace	line:6
+sg	../SleepDep_Spectral.py	/^import scipy.signal as sg$/;"	kind:namespace	line:13
+sg	../SleepDetectAlg.py	/^import scipy.signal as sg$/;"	kind:namespace	line:4
+sg	../ThetaCheck.py	/^import scipy.signal as sg$/;"	kind:namespace	line:16
+shape	../SleepDep_Ripple.py	/^                   shape=(SampFreq * duration, nChans))$/;"	kind:variable	line:26
+shortRipples	../SleepDep_Ripple.py	/^shortRipples = np.where(ripple_duration < 20)[0]$/;"	kind:variable	line:93
+signal	../SleepDep_Ripple.py	/^signal = lfpCA1[:, 31]$/;"	kind:variable	line:30
+signal	../SleepDep_Ripple.py	/^signal = np.array(signal, dtype=np.float)  # convert data to float$/;"	kind:variable	line:32
+signal	../SleepDetectAlg.py	/^signal = chan1$/;"	kind:variable	line:29
+signal	../SleepDetectAlg.py	/^signal = np.array(signal, dtype=np.float)  # convert data to float$/;"	kind:variable	line:30
+signal	../SpectrogramGen.py	/^import scipy.signal as signal$/;"	kind:namespace	line:10
+sin	../SpectrogramGen.py	/^sin = lambda x,p: np.sin(2*np.pi*x*t + p)$/;"	kind:variable	line:18
+sio	../AcrossSleepComparison.py	/^import scipy.io as sio$/;"	kind:namespace	line:13
+sleepPeriods	../AcrossSleepComparison.py	/^    sleepPeriods = ($/;"	kind:variable	line:62
+slpNrem	../AcrossSleepComparison.py	/^    slpNrem = np.where((sleepPeriods[:, 2] == 1) & ($/;"	kind:variable	line:64
+slpbehav	../AcrossSleepComparison.py	/^slpbehav = h5py.File(sourceDir2 + 'sleep-behavior.mat')$/;"	kind:variable	line:32
+smoothSignal	../SleepDep_Ripple.py	/^smoothSignal = sg.filtfilt(window, 1, squared_signal, axis=0)$/;"	kind:variable	line:51
+smth	../AcrossSleepComparison.py	/^import scipy.ndimage.filters as smth$/;"	kind:namespace	line:14
+smth	../SleepDep_PowerSpectrumCompare.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:7
+smth	../SleepDep_Ripple.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:4
+smth	../SleepDep_RippleCompare.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:4
+smth	../SleepDep_Spectral.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:12
+smth	../SleepDetectAlg.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:5
+smth	../ThetaCheck.py	/^import scipy.ndimage as smth$/;"	kind:namespace	line:15
+sns	../SleepDep_Ripple.py	/^import seaborn as sns$/;"	kind:namespace	line:3
+sns	../SleepDep_Spectral.py	/^import seaborn as sns$/;"	kind:namespace	line:15
+sourceDir	../AcrossSleepComparison.py	/^sourceDir = '\/data\/DataGen\/wake_new\/'$/;"	kind:variable	line:22
+sourceDir	../CCGTry.py	/^sourceDir = '\/data\/DataGen\/wake_new\/'$/;"	kind:variable	line:19
+sourceDir	../FiringRatePreMazePost1.py	/^sourceDir = '\/data\/DataGen\/wake_new\/'$/;"	kind:variable	line:18
+sourceDir	../RipplePreMazePost.py	/^sourceDir = '\/data\/DataGen\/wake_new\/'$/;"	kind:variable	line:28
+sourceDir2	../AcrossSleepComparison.py	/^sourceDir2 = '\/data\/DataGen\/sleep\/'$/;"	kind:variable	line:23
+sp	../SleepDetectAlg.py	/^import scipy as sp$/;"	kind:namespace	line:2
+spect	../SleepDep_RippleCompare.py	/^import SpectralAnalysis as spect$/;"	kind:namespace	line:9
+spk1	../CCGTry.py	/^            spk1 = cellpyr[cell1].squeeze()$/;"	kind:variable	line:59
+spk2	../CCGTry.py	/^            spk2 = cellpyr[cell2].squeeze()$/;"	kind:variable	line:60
+spkInfo	../unitExtract.py	/^    spkInfo = pd.read_csv(filename, header=None, names=[$/;"	kind:variable	line:23
+spkt	../FiringRatePreMazePost1.py	/^        spkt = cellpyr[cell].squeeze()$/;"	kind:variable	line:58
+spkt	../RipplePreMazePost.py	/^        spkt = cellpyr[cell].squeeze()$/;"	kind:variable	line:70
+spktimes	../unitExtract.py	/^    spktimes = spkInfo['spktimes']$/;"	kind:variable	line:29
+squared_signal	../SleepDep_Ripple.py	/^squared_signal = np.square(yf)$/;"	kind:variable	line:39
+stability	../AcrossSleepComparison.py	/^    stability = {}$/;"	kind:variable	line:47
+stability	../CCGTry.py	/^    stability={}$/;"	kind:variable	line:42
+stability	../FiringRatePreMazePost1.py	/^    stability={}$/;"	kind:variable	line:41
+stability	../RipplePreMazePost.py	/^    stability={}$/;"	kind:variable	line:52
+start_ripple	../SleepDep_Ripple.py	/^start_ripple = np.argwhere(ThreshSignal == 1)$/;"	kind:variable	line:55
+stat	../AcrossSleepComparison.py	/^import scipy.stats as stat$/;"	kind:namespace	line:16
+stat	../SleepDep_PowerSpectrumCompare.py	/^import scipy.stats as stat$/;"	kind:namespace	line:9
+stat	../SleepDep_Ripple.py	/^import scipy.stats as stat$/;"	kind:namespace	line:7
+stat	../SleepDep_RippleCompare.py	/^import scipy.stats as stat$/;"	kind:namespace	line:7
+stat	../SleepDep_Spectral.py	/^import scipy.stats as stat$/;"	kind:namespace	line:14
+stat	../SleepDetectAlg.py	/^import scipy.stats as stat$/;"	kind:namespace	line:6
+stat	../ThetaCheck.py	/^import scipy.stats as stat$/;"	kind:namespace	line:17
+states	../AcrossSleepComparison.py	/^    states = np.transpose(fbehav['behavior'][sub_name]['list'][:])$/;"	kind:variable	line:56
+states	../FiringRatePreMazePost1.py	/^    states = np.transpose(fbehav['behavior'][sub_name]['list'][:])$/;"	kind:variable	line:52
+states	../RipplePreMazePost.py	/^    states = np.transpose(fbehav['behavior'][sub_name]['list'][:])$/;"	kind:variable	line:63
+stop_ripple	../SleepDep_Ripple.py	/^stop_ripple = np.argwhere(ThreshSignal == -1)$/;"	kind:variable	line:56
+sub_name	../AcrossSleepComparison.py	/^    sub_name = subjects[sub]$/;"	kind:variable	line:41
+sub_name	../CCGTry.py	/^    sub_name = subjects[sub]$/;"	kind:variable	line:36
+sub_name	../FiringRatePreMazePost1.py	/^    sub_name = subjects[sub]$/;"	kind:variable	line:35
+sub_name	../RipplePreMazePost.py	/^    sub_name = subjects[sub]$/;"	kind:variable	line:46
+subjects	../AcrossSleepComparison.py	/^subjects = arrays['basics']$/;"	kind:variable	line:37
+subjects	../CCGTry.py	/^subjects = arrays['basics']$/;"	kind:variable	line:32
+subjects	../FiringRatePreMazePost1.py	/^subjects = arrays['basics']$/;"	kind:variable	line:31
+subjects	../RipplePreMazePost.py	/^subjects = arrays['basics']$/;"	kind:variable	line:42
+t	../CCGTry.py	/^    t = time.time()$/;"	kind:variable	line:54
+t	../SpectrogramGen.py	/^t = np.arange(0,Tmax, dt)$/;"	kind:variable	line:15
+testprogs.py	../testprogs.py	1;"	kind:file	line:1
+theta	../SleepDetectAlg.py	/^theta = sg.filtfilt(b, a, signal)$/;"	kind:variable	line:49
+theta_mean_power	../SleepDetectAlg.py	/^theta_mean_power = np.mean(theta_power, axis=0)$/;"	kind:variable	line:61
+theta_power	../SleepDetectAlg.py	/^theta_power = Sxx[theta_range, :]$/;"	kind:variable	line:60
+theta_range	../SleepDetectAlg.py	/^theta_range = np.where((5 < f) & (f < 10))[0]$/;"	kind:variable	line:59
+thirdPass	../SleepDep_Ripple.py	/^thirdPass = []$/;"	kind:variable	line:78
+thirdPass	../SleepDep_Ripple.py	/^thirdPass = np.asarray(thirdPass)$/;"	kind:variable	line:87
+thirdPass	../SleepDep_Ripple.py	/^thirdPass = np.delete(thirdPass, shortRipples, 0)$/;"	kind:variable	line:94
+thresh_hist	../SleepDep_RippleCompare.py	/^thresh_hist = ex1['zscore_dist']$/;"	kind:variable	line:24
+time	../CCGTry.py	/^import time as time$/;"	kind:namespace	line:15
+trig_loc	../SleepDep_RippleCompare.py	/^trig_loc = (RippleSess1[:, 0]\/1250)*1000$/;"	kind:variable	line:32
+unitExtract.py	../unitExtract.py	1;"	kind:file	line:1
+window	../SleepDep_Ripple.py	/^window = np.ones((int(windowLength),))\/windowLength$/;"	kind:variable	line:48
+window	../SleepDetectAlg.py	/^window = np.ones((int(windowLength),))\/windowLength$/;"	kind:variable	line:70
+windowLength	../SleepDep_Ripple.py	/^windowLength = SampFreq\/SampFreq*11$/;"	kind:variable	line:47
+windowLength	../SleepDetectAlg.py	/^windowLength = SampFreq\/SampFreq*30$/;"	kind:variable	line:69
+x	../Plotfunctry.py	/^x = np.linspace(0,10,100)$/;"	kind:variable	line:12
+x	../figMultipdfGenExample.py	/^    x = np.arange(0, 5, 0.1)$/;"	kind:variable	line:36
+xf	../SleepDep_PowerSpectrumCompare.py	/^xf = np.linspace(0.0, SampFreq \/ 2, len(eegnrem1) \/\/ 2)$/;"	kind:variable	line:29
+xf	../SleepDep_PowerSpectrumCompare.py	/^xf = np.linspace(0.0, SampFreq \/ 2, len(eegnrem1) \/\/ 2)$/;"	kind:variable	line:59
+xf	../ThetaCheck.py	/^    xf = np.linspace(0.0, SampFreq \/ 2, len(eegnrem1) \/\/ 2)$/;"	kind:variable	line:43
+xpos	../positionExtract.py	/^xpos = list(map(float, xpos))$/;"	kind:variable	line:37
+y	../Plotfunctry.py	/^y = np.sin(x)$/;"	kind:variable	line:13
+y1	../SleepDep_PowerSpectrumCompare.py	/^y1 = 2.0 \/ (len(xf)) * np.abs(yf[:len(eegnrem1) \/\/ 2])$/;"	kind:variable	line:30
+y1	../SleepDep_PowerSpectrumCompare.py	/^y1 = 2.0 \/ (len(xf)) * np.abs(yf[:len(eegnrem1) \/\/ 2])$/;"	kind:variable	line:60
+y1	../SleepDep_PowerSpectrumCompare.py	/^y1 = smth.gaussian_filter(y1, 200)$/;"	kind:variable	line:31
+y1	../SleepDep_PowerSpectrumCompare.py	/^y1 = smth.gaussian_filter(y1, 200)$/;"	kind:variable	line:61
+y1	../SpectrogramGen.py	/^y1 = 5*sin(30,0)$/;"	kind:variable	line:20
+y1	../ThetaCheck.py	/^    y1 = 2.0 \/ (len(xf)) * np.abs(yf[:len(eegnrem1) \/\/ 2])$/;"	kind:variable	line:44
+y1	../ThetaCheck.py	/^    y1 = smth.gaussian_filter(y1, 100)$/;"	kind:variable	line:45
+yf	../SleepDep_PowerSpectrumCompare.py	/^yf = ft.fft(eegnrem1) \/ len(eegnrem1)$/;"	kind:variable	line:28
+yf	../SleepDep_PowerSpectrumCompare.py	/^yf = ft.fft(eegnrem1) \/ len(eegnrem1)$/;"	kind:variable	line:58
+yf	../SleepDep_Ripple.py	/^yf = sg.filtfilt(b, a, signal)$/;"	kind:variable	line:37
+yf	../ThetaCheck.py	/^    yf = ft.fft(eegnrem1) \/ len(eegnrem1)$/;"	kind:variable	line:42
+ypos	../positionExtract.py	/^ypos = list(map(float, ypos))$/;"	kind:variable	line:38
+zpos	../positionExtract.py	/^zpos = list(map(float, zpos))$/;"	kind:variable	line:39
+zscoreSignal	../SleepDep_Ripple.py	/^zscoreSignal = stat.zscore(smoothSignal)$/;"	kind:variable	line:52
