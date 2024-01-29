@@ -6,7 +6,7 @@ The main code used is found in the `analysis_and_figure code` folder. The `misc_
 ### Interactive sleep scoring plots
 Navigate to the `interactive_figures/sleep_scoring` folder and download a sleep scoring file (.html format) for a session of your choice.  
 
-In this file you will find an interactive plot of sleep scoring for that session. An example sleep deprivation session is shown below:  
+In this file you will find an interactive plot of sleep scoring for that session. An example sleep deprivation session is shown below. You can use the pan and zoom buttons to focus in on different periods of the recording. The x-axis of the top five plots is in seconds. PRE (home cage recording prior to track running) spans from 0 to ~2.5 hours (up to ~9000 seconds). MAZE spans from ~2.5 to 4 hours (~9000 sec to ~14,400 sec). Sleep Deprivation (SD) spans from 4 hours to 9 hours (~14,400 sec to ~32400 sec), and recovery sleep (RS) occurs from 9 hours until the end of the recording (~32400 sec on).  Non sleep deprivation (NSD) occurs from 2.5 hours to the end of recording (~9000 sec on).
 
 ![Example SD session](sleep_scoring_example.png) 
 
