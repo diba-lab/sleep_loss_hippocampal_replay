@@ -1,5 +1,7 @@
 # Sleep loss diminishes hippocampal reactivation and replay
 
+
+### Interactive replay plot
 Please download the .html file from this link
 https://www.dropbox.com/s/e6nh5ucjsw0upgh/trajectory_replay_events.html?dl=0
 
