@@ -1,7 +1,7 @@
 # Sleep loss diminishes hippocampal reactivation and replay
 This repository conatains all the code used to analyze data and generate figures for Giri, Kinsky et al. (2024).  
 
-The main code used is found in the `analysis_and_figure code` folder. The `misc_code` contains miscellaneous code, some of which is used for data visualization and quality control.
+The main code used is found in the `analysis_and_figure code` folder. The `misc_code` folder contains miscellaneous code, some of which is used for data visualization and quality control.
 
 ### Interactive sleep scoring plots
 Navigate to the `interactive_figures/sleep_scoring` folder and download a sleep scoring file (.html format) for a session of your choice.  
