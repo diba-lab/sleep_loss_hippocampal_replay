@@ -13,7 +13,7 @@ The bottom row of plots show histograms of EMG, theta/delta ratios, and theta ac
 ![Example SD session](sleep_scoring_example.png) 
 
 ### Interactive replay plot
-Please download the .html file from this link
+Please download the .html file from this link (the file is too large to host on GitHub currently):
 https://www.dropbox.com/s/e6nh5ucjsw0upgh/trajectory_replay_events.html?dl=0
 
 In this file you will find an interactive plot as shown in the screenshot below:
