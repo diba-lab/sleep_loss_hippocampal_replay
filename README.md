@@ -1,6 +1,13 @@
 # Sleep loss diminishes hippocampal reactivation and replay
 
 
+### Interactive sleep scoring plots
+Navigate to the `interactive_figures/sleep_scoring` folder and download a sleep scoring file (.html format) for a session of your choice.  
+
+In this file you will find an interactive plot of sleep scoring for that session. An example sleep deprivation session is shown below:  
+
+![Example SD session](sleep_scoring_example.png) 
+
 ### Interactive replay plot
 Please download the .html file from this link
 https://www.dropbox.com/s/e6nh5ucjsw0upgh/trajectory_replay_events.html?dl=0
