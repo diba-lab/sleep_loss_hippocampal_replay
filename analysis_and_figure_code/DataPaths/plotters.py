@@ -13,6 +13,8 @@ import pandas as pd
 import itertools
 from subjects import adjust_lightness
 from copy import deepcopy
+import pingouin as pg
+from neuropy.utils.misc import flatten
 
 class Plotter:
     def __init__(
@@ -448,6 +450,7 @@ class Plotter:
                 annotator.reset_configuration()
                 yshift += 0.3
 
+
         return results_list
 
     def correct_order(self, order):
@@ -612,6 +615,180 @@ def get_stats_from_annotation(annotation_in, prepend=()):
 
     return results
 
+
+def stats_to_df(results_list, prepend=()):
+    """Converts list of stats from get_stats_from_annotation to dataframe"
+    :param results_list = output of get_stats_from_annotation
+    :param prepend: list or tuple that matches input to get_stats_from_annotation"""
+
+    columns = list(prepend)
+    columns.extend(["comp1", "comp2", "test", "pval", "test_stat"])
+    stats_df = pd.DataFrame(flatten(flatten(results_list)), columns=columns)
+
+    return stats_df
+
+def filt_to_1h_blocks(filt_in):
+    """Adjusts filter in filter_stats_df from 2.5 to 1h blocks"""
+    filt_out = deepcopy(filt_in)
+
+    # Replace everything -returns a flattened list
+    filt_out = [sub2.replace("ZT 0-2.5", "ZT 0-1") for sub1 in filt_out for sub2 in sub1]
+    filt_out = [sub1.replace("ZT 2.5-5", "ZT 4-5") for sub1 in filt_out]
+    filt_out = [sub1.replace("ZT 5-7.5", "ZT 5-6") for sub1 in filt_out]
+    if np.any(["5-7.5" in sub1 for sub1 in filt_out]):  # For NSD vs SD comparisons
+        filt_out = [sub1.replace("5-7.5", "5-6") for sub1 in filt_out]
+
+    # Unflatten into list of len = 2 lists
+    filt_out2 = []
+    for ide, entry in enumerate(filt_out):
+        if np.mod(ide, 2) == 0:
+            grp = [entry]
+        elif np.mod(ide, 2) == 1:
+            grp.append(entry)
+            filt_out2.append(grp)
+
+    return filt_out2
+
+
+def filter_stats_df(stats_df: pd.DataFrame, figure: str):
+    """Keeps only relevant comparisons from results_df which calculates everything"""
+    if figure in ["1","EDF6A"]:
+        filt = {"within": [["PRE", "MAZE"], ["MAZE", "ZT 0-2.5"], ["ZT 0-2.5", "ZT 2.5-5"], ["ZT 2.5-5", "ZT 5-7.5"],
+                           ["PRE", "ZT 0-2.5"], ["ZT 0-2.5", "ZT 5-7.5"]],
+                "across": [["ZT 2.5-5_NSD", "ZT 2.5-5_SD"], ["ZT 0-2.5 vs 5-7.5_NSD", "ZT 0-2.5 vs 5-7.5_SD"]]}
+    elif figure in ["EDF2K"]:
+        filt = {"within": [["PRE", "MAZE"], ["MAZE", "ZT 0-2.5"], ["ZT 0-2.5", "ZT 2.5-5"], ["ZT 2.5-5", "ZT 5-7.5"],
+                           ["PRE", "ZT 0-2.5"], ["ZT 0-2.5", "ZT 5-7.5"], ["PRE", "ZT 5-7.5"]],
+                "across": [["ZT 2.5-5_NSD", "ZT 2.5-5_SD"], ["ZT 0-2.5 vs 5-7.5_NSD", "ZT 0-2.5 vs 5-7.5_SD"]]}
+    elif figure in ["2", "EDF3", "EDF6B"]:
+        filt = {"within": [["PRE", "MAZE"], ["MAZE", "ZT 0-2.5"], ["ZT 0-2.5", "ZT 2.5-5"], ["ZT 2.5-5", "ZT 5-7.5"],
+                           ["ZT 0-2.5", "ZT 5-7.5"]],
+                "across": [["ZT 2.5-5_NSD", "ZT 2.5-5_SD"], ["ZT 0-2.5 vs 5-7.5_NSD", "ZT 0-2.5 vs 5-7.5_SD"]]}
+    elif figure in ["2E", "EDF3F"]:
+        filt = {"across": [["PRE", "PRE"], ["MAZE", "MAZE"], ["ZT 0-2.5", "ZT0-2.5"], ["ZT 2.5-5", "ZT 2.5-5"],
+                           ["ZT 5-7.5", "ZT 5-7.5"],
+                           ["ZT 0-2.5", "ZT 5-7.5"]]}
+    elif figure in ["3", "EDF6C"]:
+        filt = {"within": [["ZT 0-2.5", "ZT 2.5-5"], ["ZT 2.5-5", "ZT 5-7.5"]],
+                "across": [["ZT 0-2.5", "ZT0-2.5"], ["ZT 2.5-5", "ZT 2.5-5"],
+                           ["ZT 5-7.5", "ZT 5-7.5"], ["ZT 0-2.5", "ZT 5-7.5"]]}
+    elif figure in ["4", "EDF6D", "EDF7B"]:
+        filt = {"within": [["PRE_NSD", "MAZE_NSD"], ["MAZE_NSD", "ZT 0-2.5_NSD"], ["ZT 0-2.5_NSD", "ZT 2.5-5_NSD"],
+                           ["ZT 2.5-5_NSD", "ZT 5-7.5_NSD"], ["PRE_NSD", "ZT 0-2.5_NSD"],
+                           ["PRE_SD", "MAZE_SD"], ["MAZE_SD", "ZT 0-2.5_SD"], ["ZT 0-2.5_SD", "ZT 2.5-5_SD"],
+                           ["ZT 2.5-5_SD", "ZT 5-7.5_SD"], ["PRE_SD", "ZT 0-2.5_SD"]],
+                "across": [["PRE_NSD", "PRE_SD"], ["MAZE_NSD", "MAZE_SD"], ["ZT 0-2.5_NSD", "ZT0-2.5_SD"],
+                           ["ZT 2.5-5_NSD", "ZT 2.5-5_SD"], ["ZT 5-7.5_NSD", "ZT 5-7.5_SD"],
+                           ["ZT 0-2.5_NSD", "ZT 5-7.5_SD"]]}
+    elif figure in ["EDF7C", "EDF7D", "EDF7E"]:
+        filt = {"within": [["PRE", "MAZE"], ["MAZE", "ZT 0-2.5"], ["ZT 0-2.5", "ZT 2.5-5"], ["ZT 2.5-5", "ZT 5-7.5"],
+                           ["PRE", "ZT 0-2.5"]],
+                "across": [["ZT 2.5-5_NSD", "ZT 2.5-5_SD"], ["ZT 0-2.5 vs 5-7.5_NSD", "ZT 0-2.5 vs 5-7.5_SD"]]}
+
+    if "EDF6" in figure:  # Change to 1h nomenclature for figure 6
+        filt["within"] = filt_to_1h_blocks(filt["within"])
+        filt["across"] = filt_to_1h_blocks(filt["across"])
+
+    if "within" in filt.keys():
+        if figure in ["3", "EDF6C"]:
+            within_bool = stats_df.grp == "SD"
+        elif figure in ["4", "EDF6D", "EDF7B"]:
+            within_bool = np.ones_like(stats_df.comp1, dtype=bool)
+        else:
+            within_bool = (stats_df.grp == "NSD") | (stats_df.grp == "SD")
+        comp_bool = np.zeros_like(within_bool, dtype=bool)
+        for (comp1, comp2) in filt["within"]:
+            comp_bool = comp_bool | ((stats_df.comp1 == comp1) & (stats_df.comp2 == comp2))
+        within_bool = within_bool & comp_bool
+
+    else:
+        within_bool = stats_df.grp == "blah"  # Don't collect any within group stats
+
+    # across_bool = stats_df.grp == "b/w"
+    across_bool = np.ones_like(within_bool)
+    comp_bool = np.zeros_like(across_bool, dtype=bool)
+    for (comp1, comp2) in filt["across"]:
+        comp_bool = comp_bool | ((stats_df.comp1 == comp1) & (stats_df.comp2 == comp2))
+    across_bool = across_bool & comp_bool
+
+    return stats_df[within_bool | across_bool]
+
+def add_parametric_extras(df: pd.DataFrame, results_df_in: pd.DataFrame,
+                          metric: str, merge_thresh: float = 0.001):
+    """Adds in effect size ("Cohens's-D), 95% CI, and dof for parametric tests (t-tests) by re-running
+    stats with pingouin.
+    :params:  see below for usage of df, results_df_in, and metric
+    :param merge_thresh: float, difference between test statistics must be within this tolerance to merge in extras.
+    example:
+    plotter = Plotter(data=delta_rate_df, x="zt", y="delta_rate", hue="grp", hue_order=["NSD", "SD"])
+    results_list = Plotter.stripbarlineplot_sd(..., stat_across="t-test_welch, stat_within="t-test_paired")
+    results_df = stats_to_df(results_list)
+    add_parametric_extras(delt[
+    a_rate_df, results_df, "delta_rate")
+    """
+    pg_stats_list = []
+    for idr, row in results_df_in.iterrows():
+
+        # Get appropriate comparisons from results_df
+        try:
+            t1, grp1 = row.comp1.split("_")
+            t2, grp2 = row.comp2.split("_")
+            grp_from_df = False
+        except ValueError:
+            grp1, grp2 = row.grp, row.grp
+            t1, t2 = row.comp1, row.comp2
+            grp_from_df = True
+
+
+
+        # Check if paired and if not set correction to "Welch" for unequal variance
+        if grp1 != grp2:
+            paired, welch = False, True
+        else:
+            paired, welch = True, False
+
+        try:
+            n1 = ((df.grp == grp1) & (df.zt == t1)).sum()
+            n2 = ((df.grp == grp2) & (df.zt == t2)).sum()
+            if paired and n1 != n2:
+                paired = False
+
+            pg_stats_list.append(
+                pg.ttest(df[(df.grp == grp1) & (df.zt == t1)][metric], df[(df.grp == grp2) & (df.zt == t2)][metric],
+                         paired=paired, correction=welch))
+        except AssertionError:
+            print(f"error calculating stats for index={idr}. Do by hand!")
+            pg_stats_list.append(pd.Series(data=np.nan))
+
+    # Make into a dataframe
+    pg_results_df = pd.concat(pg_stats_list, axis=0).reset_index()
+    pg_results_df.insert(0, "comp1", results_df_in.comp1.values)
+    pg_results_df.insert(1, "comp2", results_df_in.comp2.values)
+    print(df.keys())
+    if "state" in df.keys() or "brainstate" in df.keys():
+        pg_results_df.insert(0, "state", results_df_in.state.values)
+    if grp_from_df and ("group" in df.keys() or "grp" in df.keys()):
+        pg_results_df.insert(0, "grp", results_df_in.grp.values)
+    if "feature" in results_df_in.keys():
+        pg_results_df.insert(0, "feature", results_df_in.feature.values)
+
+
+    merge_bool = (((results_df_in["test_stat"].astype(float) - pg_results_df["T"]) / pg_results_df[
+        "T"]).abs() < merge_thresh).all()
+
+    # Last, merge in Cohen's D, 95% CI, and dof from pingouin if test-statistics are the "same" (within merge_tresh above)
+    if merge_bool:
+        results_df_out = deepcopy(results_df_in)
+        results_df_out["CI95%"] = pg_results_df["CI95%"]
+        results_df_out["Cohen's-d"] = pg_results_df["cohen-d"]
+        results_df_out["dof"] = pg_results_df["dof"]
+
+    else:
+        results_df_out = pg_results_df
+        print(
+            "test-statistics are off by more than merge_thresh - returning pingouin values - compare to results_df_in and re-run")
+
+    return results_df_out
 
 def get_nsd_vs_sd_df_by_state(data: pd.DataFrame):
     """"Parses dataframe for comparison between NSD 0-2.5h vs SD 5-7.5h NREM states
