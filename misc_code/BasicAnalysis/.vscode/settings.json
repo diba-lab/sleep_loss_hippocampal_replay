@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:64bddbb6a16d3ef139d43f4d3a45cdda1f10ffafe249bfc971285e9bffc9ccb6
-size 63
+{
+  "python.pythonPath": "/home/bapung/miniconda3/bin/python"
+}

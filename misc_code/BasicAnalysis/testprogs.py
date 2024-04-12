@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a3310dbe8d7663c64a0a0b90018067aa3a801ca31fce38be4906040e71ee731b
-size 196
+
+import numpy as np
+
+
+session4 = '/data/Clustering/SleepDeprivation/RatJ/Day2/RatJ_2019-06-02_03-59-19/experiment1/recording1/continuous/Rhythm_FPGA-100.0/timestamps.npy'
+
+sdr = np.load(session4)
