@@ -1,0 +1,25 @@
+,grp,neuron_type,comp1,comp2,test,pval,test_stat
+0,NSD,pyr,PRE,MAZE,"get_bootstrap_prob_paired,",3.200e-03,-2.049e-01
+1,NSD,pyr,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",2.013e-01,9.032e-02
+2,NSD,pyr,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",1.600e-03,2.476e-01
+3,NSD,pyr,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",4.635e-01,7.269e-03
+6,NSD,pyr,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",2.200e-03,2.548e-01
+10,SD,pyr,PRE,MAZE,"get_bootstrap_prob_paired,",6.010e-02,-1.583e-01
+11,SD,pyr,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",4.820e-02,1.420e-01
+12,SD,pyr,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",2.795e-01,-3.785e-02
+13,SD,pyr,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",3.000e-04,2.574e-01
+16,SD,pyr,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",9.400e-03,2.195e-01
+20,between,pyr,ZT 4-5_NSD,ZT 4-5_SD,"get_bootstrap_prob,",1.194e-01,1.557e+00
+21,between,pyr,ZT 0-1 vs 5-6_NSD,ZT 0-1 vs 5-6_SD,"get_bootstrap_prob,",5.398e-02,2.415e+00
+22,NSD,inter,PRE,MAZE,"get_bootstrap_prob_paired,",2.680e-02,-3.013e+00
+23,NSD,inter,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",2.800e-03,3.401e+00
+24,NSD,inter,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",1.720e-02,2.408e+00
+25,NSD,inter,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",1.291e-01,6.892e-01
+28,NSD,inter,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",7.600e-03,3.097e+00
+32,SD,inter,PRE,MAZE,"get_bootstrap_prob_paired,",1.560e-02,-3.277e+00
+33,SD,inter,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",2.458e-01,1.161e+00
+34,SD,inter,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",9.610e-02,1.421e+00
+35,SD,inter,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,5.306e+00
+38,SD,inter,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,6.726e+00
+42,between,inter,ZT 4-5_NSD,ZT 4-5_SD,"get_bootstrap_prob,",3.112e-01,6.610e-01
+43,between,inter,ZT 0-1 vs 5-6_NSD,ZT 0-1 vs 5-6_SD,"get_bootstrap_prob,",7.843e-02,2.024e+00

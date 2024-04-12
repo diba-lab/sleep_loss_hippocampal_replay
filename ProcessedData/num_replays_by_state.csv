@@ -1,0 +1,16 @@
+,grp,state,comp1,comp2,test,pval,test_stat
+0,NSD,WAKE,PRE,MAZE,"get_bootstrap_prob_paired,",3.003e-01,6.357e+01
+1,NSD,WAKE,MAZE,ZT 0-2.5,"get_bootstrap_prob_paired,",4.596e-01,1.922e+01
+2,NSD,WAKE,ZT 0-2.5,ZT 2.5-5,"get_bootstrap_prob_paired,",0.000e+00,2.352e+02
+3,NSD,WAKE,ZT 2.5-5,ZT 5-7.5,"get_bootstrap_prob_paired,",4.750e-01,-8.490e+00
+4,NSD,WAKE,PRE,ZT 0-2.5,"get_bootstrap_prob_paired,",3.160e-01,8.279e+01
+10,NSD,NREM,PRE,ZT 0-2.5,"get_bootstrap_prob_paired,",0.000e+00,-3.328e+02
+11,NSD,NREM,ZT 0-2.5,ZT 2.5-5,"get_bootstrap_prob_paired,",4.295e-01,-2.017e+01
+12,NSD,NREM,ZT 2.5-5,ZT 5-7.5,"get_bootstrap_prob_paired,",5.900e-02,1.049e+02
+16,SD,WAKE,PRE,MAZE,"get_bootstrap_prob_paired,",3.886e-01,2.528e+01
+17,SD,WAKE,MAZE,ZT 0-2.5,"get_bootstrap_prob_paired,",2.000e-04,-2.732e+02
+18,SD,WAKE,ZT 0-2.5,ZT 2.5-5,"get_bootstrap_prob_paired,",1.725e-01,3.150e+01
+19,SD,WAKE,ZT 2.5-5,ZT 5-7.5,"get_bootstrap_prob_paired,",0.000e+00,4.981e+02
+20,SD,WAKE,PRE,ZT 0-2.5,"get_bootstrap_prob_paired,",2.100e-03,-2.479e+02
+27,between,NREM,ZT 2.5-5_NSD,ZT 2.5-5_SD,"get_bootstrap_prob,",-2.220e-16,1.009e+01
+28,between,NREM,ZT 0-2.5 vs 5-7.5_NSD,ZT 0-2.5 vs 5-7.5_SD,"get_bootstrap_prob,",2.045e-02,3.025e+00

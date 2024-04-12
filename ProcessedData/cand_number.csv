@@ -1,0 +1,16 @@
+,comp1,comp2,test,pval,test_stat
+0,MAZE_NSD,MAZE_SD,"get_bootstrap_prob,",2.728e-01,8.963e-01
+1,PRE_NSD,PRE_SD,"get_bootstrap_prob,",3.572e-01,5.793e-01
+3,ZT 2.5-5_NSD,ZT 2.5-5_SD,"get_bootstrap_prob,",4.173e-02,2.282e+00
+4,ZT 5-7.5_NSD,ZT 5-7.5_SD,"get_bootstrap_prob,",2.917e-01,8.361e-01
+5,ZT 0-2.5_NSD,ZT 5-7.5_SD,"get_bootstrap_prob,",1.625e-03,4.140e+00
+6,ZT 0-2.5_NSD,ZT 2.5-5_NSD,"get_bootstrap_prob_paired,",1.400e-03,7.845e+02
+7,PRE_NSD,MAZE_NSD,"get_bootstrap_prob_paired,",1.000e-04,1.541e+03
+8,MAZE_NSD,ZT 0-2.5_NSD,"get_bootstrap_prob_paired,",0.000e+00,-2.479e+03
+9,ZT 2.5-5_NSD,ZT 5-7.5_NSD,"get_bootstrap_prob_paired,",1.420e-02,3.106e+02
+12,PRE_NSD,ZT 0-2.5_NSD,"get_bootstrap_prob_paired,",2.860e-02,-9.380e+02
+16,PRE_SD,MAZE_SD,"get_bootstrap_prob_paired,",0.000e+00,1.397e+03
+17,ZT 0-2.5_SD,ZT 2.5-5_SD,"get_bootstrap_prob_paired,",8.560e-02,-3.047e+02
+18,ZT 2.5-5_SD,ZT 5-7.5_SD,"get_bootstrap_prob_paired,",0.000e+00,1.229e+03
+19,MAZE_SD,ZT 0-2.5_SD,"get_bootstrap_prob_paired,",0.000e+00,-2.182e+03
+20,PRE_SD,ZT 0-2.5_SD,"get_bootstrap_prob_paired,",3.000e-04,-7.848e+02
