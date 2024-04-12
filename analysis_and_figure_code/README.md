@@ -7,8 +7,8 @@ The `sleep_deprivation` folder contains all the Jupyter notebooks used to genera
 - You will need to create a conda/mamba environment per the `environment.yml` file in the NeuroPy repository.
 
 ### 2) Download Processed Data
-- This is housed in a Mendeley Data repository at doi: 10.17632/mzdx59f87h.1
-- 
+- This is housed in `ProcessedData` folder hosted in the main repository.
+
 ### 3) Adjust search paths
 - the `DataPaths/subjects.py` file contains several references to data file locations that need to be adjusted to run the code.
 - Change the `GroupData.path` property to the location where your processed data downloaded in step 2 resides.

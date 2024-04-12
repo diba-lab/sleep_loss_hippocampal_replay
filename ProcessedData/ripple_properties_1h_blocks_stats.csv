@@ -1,0 +1,43 @@
+,grp,param,comp1,comp2,test,pval,test_stat
+0,NSD,peak_freq,PRE,MAZE,"get_bootstrap_prob_paired,",1.063e-01,-3.401e+00
+1,NSD,peak_freq,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",2.932e-01,-1.331e+00
+2,NSD,peak_freq,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",0.000e+00,1.755e+01
+3,NSD,peak_freq,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",4.233e-01,-6.147e-01
+4,NSD,peak_freq,PRE,ZT 0-1,"get_bootstrap_prob_paired,",1.000e-04,-4.732e+00
+6,NSD,peak_freq,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,1.694e+01
+10,SD,peak_freq,PRE,MAZE,"get_bootstrap_prob_paired,",1.108e-01,-2.280e+00
+11,SD,peak_freq,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",2.400e-03,-4.918e+00
+12,SD,peak_freq,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",7.010e-02,2.410e+00
+13,SD,peak_freq,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,1.047e+01
+14,SD,peak_freq,PRE,ZT 0-1,"get_bootstrap_prob_paired,",0.000e+00,-7.199e+00
+16,SD,peak_freq,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,1.288e+01
+20,between,peak_freq,ZT 4-5_NSD,ZT 4-5_SD,"get_bootstrap_prob,",0.000e+00,1.514e+01
+21,between,peak_freq,ZT 0-1 vs 5-6_NSD,ZT 0-1 vs 5-6_SD,"get_bootstrap_prob,",0.000e+00,7.503e+00
+22,NSD,sw_amp,PRE,MAZE,"get_bootstrap_prob_paired,",9.550e-02,2.906e-01
+23,NSD,sw_amp,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",0.000e+00,-9.368e-01
+24,NSD,sw_amp,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",4.046e-01,-1.250e-01
+25,NSD,sw_amp,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",1.810e-01,1.468e-01
+26,NSD,sw_amp,PRE,ZT 0-1,"get_bootstrap_prob_paired,",2.300e-03,-6.462e-01
+28,NSD,sw_amp,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",4.530e-01,2.175e-02
+32,SD,sw_amp,PRE,MAZE,"get_bootstrap_prob_paired,",3.970e-02,4.585e-01
+33,SD,sw_amp,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",0.000e+00,-6.506e-01
+34,SD,sw_amp,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",4.362e-01,4.996e-02
+35,SD,sw_amp,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,-8.959e-01
+36,SD,sw_amp,PRE,ZT 0-1,"get_bootstrap_prob_paired,",1.175e-01,-1.921e-01
+38,SD,sw_amp,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",1.220e-02,-8.459e-01
+42,between,sw_amp,ZT 4-5_NSD,ZT 4-5_SD,"get_bootstrap_prob,",8.552e-02,2.021e+00
+43,between,sw_amp,ZT 0-1 vs 5-6_NSD,ZT 0-1 vs 5-6_SD,"get_bootstrap_prob,",3.780e-01,4.271e-01
+44,NSD,ripple_power,PRE,MAZE,"get_bootstrap_prob_paired,",1.700e-03,7.126e-01
+45,NSD,ripple_power,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",0.000e+00,-1.241e+00
+46,NSD,ripple_power,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",1.890e-01,-2.150e-01
+47,NSD,ripple_power,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",2.825e-01,1.156e-01
+48,NSD,ripple_power,PRE,ZT 0-1,"get_bootstrap_prob_paired,",2.900e-03,-5.281e-01
+50,NSD,ripple_power,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",2.368e-01,-9.939e-02
+54,SD,ripple_power,PRE,MAZE,"get_bootstrap_prob_paired,",1.080e-02,6.561e-01
+55,SD,ripple_power,MAZE,ZT 0-1,"get_bootstrap_prob_paired,",1.000e-04,-4.442e-01
+56,SD,ripple_power,ZT 0-1,ZT 4-5,"get_bootstrap_prob_paired,",0.000e+00,-5.755e-01
+57,SD,ripple_power,ZT 4-5,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,-6.680e-01
+58,SD,ripple_power,PRE,ZT 0-1,"get_bootstrap_prob_paired,",1.345e-01,2.119e-01
+60,SD,ripple_power,ZT 0-1,ZT 5-6,"get_bootstrap_prob_paired,",0.000e+00,-1.243e+00
+64,between,ripple_power,ZT 4-5_NSD,ZT 4-5_SD,"get_bootstrap_prob,",4.851e-02,2.445e+00
+65,between,ripple_power,ZT 0-1 vs 5-6_NSD,ZT 0-1 vs 5-6_SD,"get_bootstrap_prob,",4.268e-01,2.280e-01

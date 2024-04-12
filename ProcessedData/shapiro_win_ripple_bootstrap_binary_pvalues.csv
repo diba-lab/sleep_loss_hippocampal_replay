@@ -1,0 +1,21 @@
+,neuron_type,zt,grp,shapiro_pvalue
+0,inter,MAZE,NSD,0.0153
+1,inter,MAZE,SD,0.0152
+2,inter,PRE,NSD,0.0024
+3,inter,PRE,SD,0.0154
+4,inter,ZT 0-2.5,NSD,0.0125
+5,inter,ZT 0-2.5,SD,0.0241
+6,inter,ZT 2.5-5,NSD,0.0006
+7,inter,ZT 2.5-5,SD,0.0219
+8,inter,ZT 5-7.5,NSD,0.0004
+9,inter,ZT 5-7.5,SD,0.0125
+10,pyr,MAZE,NSD,0.4873
+11,pyr,MAZE,SD,0.8118
+12,pyr,PRE,NSD,0.0003
+13,pyr,PRE,SD,0.0162
+14,pyr,ZT 0-2.5,NSD,0.142
+15,pyr,ZT 0-2.5,SD,0.0012
+16,pyr,ZT 2.5-5,NSD,0.3756
+17,pyr,ZT 2.5-5,SD,0.0072
+18,pyr,ZT 5-7.5,NSD,0.3112
+19,pyr,ZT 5-7.5,SD,0.0874

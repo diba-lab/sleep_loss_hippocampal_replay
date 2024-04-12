@@ -5,7 +5,7 @@ The main code used is found in the `analysis_and_figure code` folder. The `misc_
 
 The code used in this repository utilizes open-source code for neural data analysis in Python written by Bapun Giri, Nat Kinsky, and Pho Hale: https://github.com/diba-lab/NeuroPy.
 
-Processed data used to generate most, but not all of the figures used in this paper can be found in an online data repository at doi: 10.17632/mzdx59f87h.1
+Processed data used to generate most, but not all of the figures used in this paper can be found in the `ProcessedData` folder.
 
 
 ### Interactive sleep scoring plots
