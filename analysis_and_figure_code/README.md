@@ -20,5 +20,5 @@ The `sleep_deprivation` folder contains all the Jupyter notebooks used to genera
 - The top cell will contain the lines `sys.path.extend(['/home/nkinsky/Documents/GitHub/NeuroPy'])` and a similar line for the `DataPaths` folder.  Change these to match the location of your local NeuroPy repository and `DataPaths` folder.
 - Run the code!
 
-# Notes of file naming and figure panel referencing
+# Notes on file naming and figure panel referencing
 The code used to generate figures is located in the `sd_figurex_bs.ipynb` files. Extended Data figure panels related to each figure are in the the `sd_figurx_supp.ipynb` files.  Note that, in some cases, extended data figure panels were produced in a main figure notebook. All figure panels are noted in Jupyter cells within each notebook
