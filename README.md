@@ -7,6 +7,7 @@ The code used in this repository utilizes open-source code for neural data analy
 
 Processed data used to generate most, but not all of the figures used in this paper can be found in an online data repository at doi: 10.17632/mzdx59f87h.1
 
+
 ### Interactive sleep scoring plots
 Navigate to the `interactive_figures/sleep_scoring` folder and download a sleep scoring file (.html format) for a session of your choice.  
 
