@@ -5,6 +5,9 @@ The main code used is found in the `analysis_and_figure code` folder. The `misc_
 
 The code used in this repository utilizes open-source code for neural data analysis in Python written by Bapun Giri, Nat Kinsky, and Pho Hale: https://github.com/diba-lab/NeuroPy.
 
+Processed data used to generate most, but not all of the figures used in this paper can be found in an online data repository at doi: 10.17632/mzdx59f87h.1
+
+
 ### Interactive sleep scoring plots
 Navigate to the `interactive_figures/sleep_scoring` folder and download a sleep scoring file (.html format) for a session of your choice.  
 
@@ -15,8 +18,7 @@ The bottom row of plots show histograms of EMG, theta/delta ratios, and theta ac
 ![Example SD session](sleep_scoring_example.png) 
 
 ### Interactive replay plot
-Please download the .html file from this link (the file is too large to host on GitHub currently):
-https://www.dropbox.com/s/e6nh5ucjsw0upgh/trajectory_replay_events.html?dl=0
+Please download the .html file from [this link](interactive_figures/trajectory_replay_events.html) 
 
 In this file you will find an interactive plot as shown in the screenshot below:
 
