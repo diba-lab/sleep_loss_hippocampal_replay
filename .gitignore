@@ -1,3 +1,49 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a454e3a0cfa85ea329ff5d67a088a427c1826a473564f6af3672330a0e526997
-size 791
+.DS_Store
+.huskyrc.json
+out
+log.log
+**/node_modules
+*.pyc
+*.vsix
+**/.vscode/.ropeproject/**
+**/testFiles/**/.cache/**
+*.noseids
+.nyc_output
+.vscode-test
+__pycache__
+npm-debug.log
+**/.mypy_cache/**
+!yarn.lock
+coverage/
+cucumber-report.json
+**/.vscode-test/**
+**/.vscode test/**
+**/.vscode-smoke/**
+**/.venv*/
+port.txt
+precommit.hook
+pythonFiles/experimental/ptvsd/**
+pythonFiles/lib/**
+debug_coverage*/**
+languageServer/**
+languageServer.*/**
+bin/**
+obj/**
+.pytest_cache
+tmp/**
+.python-version
+.vs/
+test-results.xml
+xunit-test-results.xml
+build/ci/performance/performance-results.json
+!build/
+debug*.log
+ptvsd*.log
+pydevd*.log
+nodeLanguageServer/**
+nodeLanguageServer.*/**
+ModulesPath/__pycache__
+.ipynb_checkpoints
+*.pdf
+*.evt
+oscillations/.ipynb_checkpoints/theta_periods-checkpoint.ipynb
