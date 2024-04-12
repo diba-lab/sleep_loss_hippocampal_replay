@@ -1,17 +1,3 @@
-import numpy as np
-from scipy import stats
-import scipy.signal as sg
-import pingouin as pg
-import pandas as pd
-from neuropy import core
-from scipy import interpolate
-
-
-def get_wake_epochs(brainstates: core.Epoch):
-    wake = brainstates["AW"] + brainstates["QW"]
-    wake.set_labels("WK")
-    return wake.merge_neighbors()
-
-
-def plot_hypnogram():
-    pass
+version https://git-lfs.github.com/spec/v1
+oid sha256:3eaa03b6719efd94c06320604f29cd68e8ebbbe4b0f4e5481d23716587cf6e05
+size 356

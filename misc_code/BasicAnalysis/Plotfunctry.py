@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Feb  9 23:46:13 2019
-
-@author: Bapun
-"""
-
-import numpy as np
-import matplotlib.pyplot as plt
-from figCust import plotfig
-
-x = np.linspace(0,10,100)
-y = np.sin(x)
-
-plotfig()
-plt.subplot(121)
-plt.plot(x,y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff41a5f6a7308782395e793cc5043d2d48bb9bd4258a2f6e945e9c09f0f5c583
+size 246

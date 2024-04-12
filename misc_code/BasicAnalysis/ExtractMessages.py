@@ -1,7 +1,3 @@
-import numpy as np
-
-fname = '/data/Clustering/SleepDeprivation/RatK/Day1/2019-08-06_03-44-01/experiment1/recording1/events/Rhythm_FPGA-100.0/TTL_1/'
-
-# a = np.load(fname + 'text.npy')
-b = np.load(fname + 'timestamps.npy')
-c = np.load(fname + 'full_words.npy')
+version https://git-lfs.github.com/spec/v1
+oid sha256:b73385ae6b65f9e060b1f3c02ebf0b36815e1a6ea8e94883d2c3535f51c2f83b
+size 260
